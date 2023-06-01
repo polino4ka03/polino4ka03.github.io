@@ -698,14 +698,14 @@ picture {
 }
 
 @media (max-width: 1199px) {
-  .promo-card__image {
+  .promo-card__image .promo-card__image-dom{
     height: 200px;
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .promo-card__image {
+  .promo-card__image .promo-card__image-dom{
     height: calc((50vw - 30px) / (130 / 170));
     width: 100%;
     min-width: 130px;
